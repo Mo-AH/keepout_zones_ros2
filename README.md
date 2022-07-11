@@ -1,4 +1,4 @@
-# Ros2 - Nav2 : Keepout zones in a simulated environment
+# Ros2 + Nav2: Keepout zones in a simulated environment
 
 ## Introduction
 Navigation in ROS2 with [Nav2](https://navigation.ros.org/) introduced a lot of new features and possibilities. The goal of this ros2 package is to test the feature of navigating in a known environment where the robot cannot pass by some dangerous areas (keepout zones).
