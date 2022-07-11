@@ -20,17 +20,13 @@ sudo apt install ros-<ros2-distro>-webots-ros2
 In order to get and build the package, the following commands can be used:
 ```bashscript
 mkdir -p ~/keepout_ws/src
-```
-```bashscript
+
 cd ~/keepout_ws/src
-```
-```bashscript
+
 git clone https://github.com/Mo-AH/keepout_zones
-```
-```bashscript
+
 cd ~/keepout_ws
-```
-```bashscript
+
 colcon build --symlink-install 
 ```
 
