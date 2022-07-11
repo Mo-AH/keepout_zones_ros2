@@ -60,7 +60,7 @@ The robot initial pose is already set by a script (`inital_pose.py`) launched by
 
 
 ## Nodes
-1. Navagation_launch_file_nodes:
+### 1. Navagation_launch_file_nodes:
 
 - Nav2 Controller
 This is a Task Server in Nav2 that implements the nav2_msgs::action::FollowPath action server which is resposible for generating command velocities for the robot and 
@@ -79,14 +79,14 @@ The last waypoint in the waypoint array is the final position.
 This is a planning module which implements the nav2_behavior_tree::ComputePathToPose interface which is responsible for generating a feasible 
 path, given start and end robot poses.
 
-2. slam_lanchfile and localization
+### 2. slam_launch and localization
 
 -Map Server
 The Map Server provides maps to the rest of the Nav2 system using both topic and service interfaces.
 - nav2_amcl 
 Adaptive Monte Carlo Localization (AMCL) is a probabilistic localization module which estimates the position and orientation (i.e. Pose) of a robot in a given known map.
 
-3. bringup_lanuch (file used for control the whole navigation and localization codes)
+### 3. bringup_lanuch (file used for control the whole navigation and localization codes)
 
 - costmap_filter_info_server
 This is used for filter map which is drawn to be kept out when the robot moves ub the map.
@@ -94,9 +94,9 @@ This is used for filter map which is drawn to be kept out when the robot moves u
 This is used to allows the system startup to ensure that all required nodes have been instantiated correctly before they begin their execution. 
 Using lifecycle nodes also allows nodes to be restarted or replaced on-line.
 
-4. robot_launch 
+### 4. robot_launch_file
 
-This file is used for launching the Rviz, tiago robot, the map without keepoutzones, webots environment and bringup file which is reposiblle for the navigation and keepout zones 
+- This file is used for launching the Rviz, tiago robot, the map without keepoutzones, webots environment and bringup file which is reposiblle for the navigation and keepout zones 
 
 
 
