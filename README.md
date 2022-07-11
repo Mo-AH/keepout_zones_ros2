@@ -97,6 +97,8 @@ Using lifecycle nodes also allows nodes to be restarted or replaced on-line.
 ### 4. robot_launch_file
 
 - This file is used for launching the Rviz, tiago robot, the map without keepoutzones, webots environment and bringup file which is reposiblle for the navigation and keepout zones 
+## rqt_graph
+![rosgraph2](https://user-images.githubusercontent.com/94136236/178357630-e0d9ac44-3242-4946-a245-e0bb1186af43.png)
 
-
-
+## UML model
+![MicrosoftTeams-image](https://user-images.githubusercontent.com/94136236/178357697-3b013bfa-afa0-446a-85b2-d147a3b00ae4.png)
