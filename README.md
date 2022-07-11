@@ -13,7 +13,9 @@ sudo apt install ros-<ros2-distro>-navigation2
 Install Webots:
 ```bashscript
 sudo snap install webots
+
 sudo apt update
+
 sudo apt install ros-<ros2-distro>-webots-ros2
 ```
 
