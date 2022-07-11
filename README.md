@@ -81,7 +81,7 @@ path, given start and end robot poses.
 
 ### 2. slam_launch and localization
 
--Map Server
+- Map Server
 The Map Server provides maps to the rest of the Nav2 system using both topic and service interfaces.
 - nav2_amcl 
 Adaptive Monte Carlo Localization (AMCL) is a probabilistic localization module which estimates the position and orientation (i.e. Pose) of a robot in a given known map.
