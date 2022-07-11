@@ -51,5 +51,5 @@ This will start the simulation with a default mask for the keepout zones. The pa
 ros2 launch keepout_zones robot_launch.py mask:=src/keepout_zones/maps/mask1.yaml
 ```
 
-To test the robot navigation with the keepout zones, just set a goal in Rviz.
+To test the robot navigation with the keepout zones, a goal can be set in Rviz.
 
